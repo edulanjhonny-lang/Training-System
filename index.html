@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agency Training Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">A</div>
+        <div>
+          <strong>Agency Training</strong>
+          <span>4-week subcontractor system</span>
+        </div>
+      </div>
+      <nav>
+        <button class="nav-button active" data-view="home">Overview</button>
+        <button class="nav-button" data-view="register">Register</button>
+        <button class="nav-button" data-view="login">Trainee Login</button>
+      </nav>
+      <div class="sidebar-note">
+        <strong>Trainee Portal</strong>
+        <span>Admin access is on a separate dashboard.</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1 id="pageTitle">Training Operating System</h1>
+          <p id="pageSubtitle">Register trainees, approve access, assign a track, and run daily lessons.</p>
+        </div>
+        <div class="user-chip" id="sessionChip">Not logged in</div>
+      </header>
+
+      <section class="view active" id="homeView">
+        <div class="hero-panel">
+          <div>
+            <h2>Train subcontractors to become client-ready in 4 weeks.</h2>
+            <p>This portal is built for website/SEO and video editing subcontractors. Each day has a tutorial link, output task, QA standard, and progress tracking.</p>
+            <div class="hero-actions">
+              <button class="primary" data-view-jump="register">Register Trainee</button>
+              <button class="secondary" data-view-jump="login">Trainee Login</button>
+            </div>
+          </div>
+          <div class="stats-grid">
+            <div><strong>20</strong><span>training days</span></div>
+            <div><strong>2</strong><span>skill tracks</span></div>
+            <div><strong>85%</strong><span>graduation target</span></div>
+            <div><strong>QA</strong><span>before client work</span></div>
+          </div>
+        </div>
+
+        <div class="section-grid">
+          <article class="info-panel">
+            <h3>Training Flow</h3>
+            <ol>
+              <li>Trainee registers and selects a track.</li>
+              <li>Admin approves access.</li>
+              <li>Trainee completes one lesson per weekday.</li>
+              <li>Trainer reviews submissions and progress.</li>
+              <li>Week 4 capstone decides client readiness.</li>
+            </ol>
+          </article>
+          <article class="info-panel">
+            <h3>Daily Standard</h3>
+            <p>Watch the lesson, create the output, self-check with QA, then submit a link and reflection. No submission means the day is incomplete.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="registerView">
+        <div class="form-panel">
+          <h2>Trainee Registration</h2>
+          <p>New trainees register here. They cannot access lessons until approved by admin.</p>
+          <form id="registerForm">
+            <label>
+              Full name
+              <input required name="name" placeholder="Juan Dela Cruz">
+            </label>
+            <label>
+              Email
+              <input required type="email" name="email" placeholder="name@email.com">
+            </label>
+            <label>
+              Primary track
+              <select required name="track">
+                <option value="website">Website/SEO Track</option>
+                <option value="video">Video Editing Track</option>
+              </select>
+            </label>
+            <label>
+              Current skill level
+              <select required name="level">
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced but needs agency standards</option>
+              </select>
+            </label>
+            <label>
+              Portfolio or sample link
+              <input name="portfolio" placeholder="Google Drive, Behance, YouTube, or sample link">
+            </label>
+            <button class="primary" type="submit">Submit for Approval</button>
+          </form>
+          <div class="notice" id="registerNotice"></div>
+        </div>
+      </section>
+
+      <section class="view" id="loginView">
+        <div class="form-panel">
+          <h2>Trainee Login</h2>
+          <p>Approved trainees can log in using their registered email.</p>
+          <form id="loginForm">
+            <label>
+              Email
+              <input required type="email" name="email" placeholder="name@email.com">
+            </label>
+            <button class="primary" type="submit">Open Training Dashboard</button>
+          </form>
+          <div class="notice" id="loginNotice"></div>
+        </div>
+      </section>
+
+      <section class="view" id="trainingView">
+        <div class="training-layout">
+          <section class="lesson-area">
+            <div class="dashboard-header">
+              <div>
+                <h2 id="trainingName">Training Dashboard</h2>
+                <p id="trainingMeta">Track and daily lessons</p>
+              </div>
+              <button class="secondary" id="logoutBtn">Log out</button>
+            </div>
+            <div class="progress-wrap">
+              <div class="progress-label">
+                <span>Progress</span>
+                <strong id="progressText">0/20 complete</strong>
+              </div>
+              <div class="progress-bar"><span id="progressFill"></span></div>
+            </div>
+            <div class="week-tabs" id="weekTabs"></div>
+            <div class="lesson-list" id="lessonList"></div>
+          </section>
+          <aside class="today-panel">
+            <h3>Submission</h3>
+            <p>Select a lesson, paste your work link, and write a short reflection.</p>
+            <form id="submissionForm">
+              <input type="hidden" name="lessonId" id="lessonId">
+              <label>
+                Selected lesson
+                <input readonly id="selectedLesson" placeholder="Choose a lesson">
+              </label>
+              <label>
+                Output link
+                <input name="link" placeholder="Google Drive, Figma, Loom, YouTube, etc.">
+              </label>
+              <label>
+                Reflection
+                <textarea name="reflection" rows="5" placeholder="What did you do? What was difficult? What will you improve?"></textarea>
+              </label>
+              <button class="primary" type="submit">Submit Lesson</button>
+            </form>
+            <div class="notice" id="submissionNotice"></div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
