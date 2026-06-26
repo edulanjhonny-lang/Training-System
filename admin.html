@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agency Training Admin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">A</div>
+        <div>
+          <strong>Training Admin</strong>
+          <span>Approvals and reviews</span>
+        </div>
+      </div>
+      <nav>
+        <a class="nav-button active" href="admin.html">Admin Dashboard</a>
+        <a class="nav-button" href="index.html">Open Trainee Portal</a>
+      </nav>
+      <div class="sidebar-note">
+        <strong>Admin Only</strong>
+        <span>Allowed emails plus PIN required.</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1>Admin Dashboard</h1>
+          <p>Approve trainees, monitor progress, and review daily submissions.</p>
+        </div>
+        <div class="user-chip" id="sessionChip">Admin locked</div>
+      </header>
+
+      <section class="admin-lock" id="adminLock">
+        <div class="form-panel">
+          <h2>Admin Access</h2>
+          <p>Only approved admin emails can open this dashboard.</p>
+          <form id="adminForm">
+            <label>
+              Admin email
+              <input required name="email" type="email" placeholder="admin@email.com">
+            </label>
+            <label>
+              Admin PIN
+              <input required name="pin" type="password" placeholder="2468">
+            </label>
+            <button class="primary" type="submit">Open Admin Dashboard</button>
+          </form>
+          <div class="notice" id="adminNotice"></div>
+        </div>
+      </section>
+
+      <section class="admin-dashboard hidden" id="adminDashboard">
+        <div class="dashboard-header">
+          <div>
+            <h2>Training Control Center</h2>
+            <p>Applicant approvals and submitted lesson outputs are managed here.</p>
+          </div>
+          <button class="secondary" id="refreshAdminBtn">Refresh Lists</button>
+        </div>
+        <div class="admin-columns">
+          <section class="info-panel">
+            <h3>Applicants</h3>
+            <div class="list" id="applicantList"></div>
+          </section>
+          <section class="info-panel">
+            <h3>Submissions</h3>
+            <div class="list" id="submissionList"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
