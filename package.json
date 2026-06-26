@@ -2,8 +2,5 @@
   "name": "agency-training-system",
   "version": "1.0.0",
   "private": true,
-  "description": "Agency trainee portal with Vercel API and Supabase storage.",
-  "scripts": {
-    "start": "node server.js"
-  }
+  "description": "Agency trainee portal with Vercel API and Supabase storage."
 }
