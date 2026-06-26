@@ -2,38 +2,73 @@
 
 ## Purpose
 
-This SOP is for training new subcontractors for website/SEO and video editing work. The goal is that after 4 weeks, a trainee can handle real client tasks with clear standards, predictable quality, and less supervision from the owner.
+This SOP trains subcontractors for internal website, SEO, funnel, ecommerce, AI template, and CapCut video production. The goal is that after 4 weeks, a trainee can follow internal instructions, copy approved references, produce organized output, and pass internal QA.
+
+## Non-Negotiable Communication Rule
+
+Trainees do not communicate outside the team.
+
+All questions, updates, revisions, and handoff notes go to the owner, admin, trainer, or assigned lead only.
 
 ## Training Outcome
 
 After 4 weeks, each trainee should be able to:
 
-- Follow a project brief without repeated explanations.
-- Produce work that passes internal QA before client review.
-- Communicate blockers early.
-- Submit organized files, links, and revision notes.
-- Understand the agency's standard workflow and quality bar.
+- Follow internal instructions without repeated explanation.
+- Copy a reference accurately while keeping the work editable.
+- Submit clean links, screenshots, files, and short notes.
+- Run self-QA before submission.
+- Accept feedback and revise quickly.
+- Work inside the approved tools and naming standards.
+
+## Approved Tool Stack
+
+Website/SEO:
+
+- WordPress
+- Elementor
+- GHL funnel builder and automation
+- Shopify
+- WordPress plus WooCommerce
+- Lovable
+- Readdy.ai
+- On-page SEO
+- Off-page SEO
+- Local SEO
+- Basic technical SEO and QA
+
+Video Editing:
+
+- CapCut
+- Captions
+- B-roll
+- Hook editing
+- Audio cleanup
+- Export/versioning
+- Short-form video QA
 
 ## Roles
 
 Owner/Admin:
 
-- Approves trainee access to the training portal.
-- Reviews weekly scores.
-- Decides whether a trainee graduates to client work.
+- Approves trainee access.
+- Assigns primary track.
+- Reviews final readiness.
 
-Trainer/Lead Subcontractor:
+Trainer/Lead:
 
 - Reviews daily submissions.
-- Gives specific feedback.
-- Tags output as pass, revise, or fail.
+- Marks output as Pass, Revise, or Fail.
+- Gives specific correction notes.
 
 Trainee:
 
 - Completes one lesson per training day.
 - Watches the assigned tutorial.
-- Submits the required output before the deadline.
-- Applies feedback within the revision window.
+- Studies the reference.
+- Creates the required output.
+- Submits proof before deadline.
+- Revises when asked.
 
 ## Training Length
 
@@ -44,71 +79,56 @@ Daily training time: 2 to 4 hours
 
 Recommended daily structure:
 
-- 30 to 60 minutes: watch tutorial and take notes.
-- 90 to 150 minutes: complete hands-on task.
-- 15 minutes: self-QA before submission.
-- 15 minutes: submit proof, file link, and short reflection.
+- 30 to 60 minutes: watch tutorial and study the reference.
+- 90 to 150 minutes: complete the hands-on task.
+- 15 minutes: self-QA.
+- 15 minutes: submit link, screenshot, and short reflection.
 
-## Track Selection
+## Daily Submission Format
 
-Each trainee should be assigned to one primary track:
+Every submission must include:
 
-- Website/SEO Track
-- Video Editing Track
-
-If a trainee is strong, they may take a secondary track after graduating from the first one.
-
-## Access Process
-
-1. Trainee registers on the training website.
-2. Admin reviews the trainee profile.
-3. Admin approves access.
-4. Trainee logs in and starts Day 1.
-5. Progress and submissions are tracked in the portal.
-
-## Daily Submission Rule
-
-Every training day requires a submission. A submission should include:
-
-- Final output link or file link.
+- Final output link.
+- Screenshot or screen recording when useful.
 - Short summary of what was done.
-- What they found difficult.
-- What they would improve next time.
+- What was difficult.
+- What should be improved next.
 
 No submission means the day is incomplete.
 
-## Review Rule
+## Review Status
 
-Every submission should be reviewed using this status:
+- Pass: output meets the standard.
+- Revise: output can pass after corrections.
+- Fail: instructions were not followed or quality is too low.
 
-- Pass: acceptable quality.
-- Revise: needs correction but can be fixed.
-- Fail: output does not meet the standard or instructions were not followed.
+Feedback should be specific:
 
-Feedback must be specific. Avoid vague comments like "make it better." Use comments like:
-
-- Fix mobile spacing in hero section.
-- CTA is not visible above the fold.
-- Audio is too loud compared to voice.
+- Fix mobile spacing in the hero section.
+- Header button is not aligned.
+- GHL workflow trigger is missing.
+- Product page lacks image hierarchy.
 - Captions are late by around 0.5 seconds.
+- Music is too loud compared with voice.
 
 ## Scoring Rubric
 
-Score each daily output from 1 to 5 in each category:
+Score each daily output from 1 to 5:
 
 - Instruction following
+- Reference matching
 - Technical skill
 - Visual quality
-- Speed and deadline discipline
-- Communication
+- File organization
 - Self-QA
+- Speed and deadline discipline
 
 Weekly score guide:
 
-- 90 to 100: ready for advanced work.
+- 90 to 100: ready for advanced internal production.
 - 80 to 89: good, needs focused polish.
-- 70 to 79: can continue training, not ready for clients.
-- Below 70: needs retraining or should not continue.
+- 70 to 79: may continue training with closer review.
+- Below 70: needs retraining or reassignment.
 
 ## Graduation Requirements
 
@@ -117,77 +137,65 @@ A trainee graduates only if they meet all requirements:
 - Completed all 20 training days.
 - Passed the Week 4 capstone.
 - Average score is at least 85.
-- No repeated deadline or communication issues.
-- Can revise output based on feedback without defensiveness or confusion.
+- No repeated missed submissions.
+- Can revise based on feedback without confusion.
+- Can follow references and SOPs accurately.
 
-## Client Work Readiness Levels
-
-Level 1: Assistant
-
-- Can do small parts of a project.
-- Needs review before anything is sent to client.
-
-Level 2: Production Ready
-
-- Can complete standard tasks.
-- Still needs final QA from owner or lead.
-
-Level 3: Lead Ready
-
-- Can handle full deliverables.
-- Can review other subcontractors' work.
-
-## Website/SEO Track Standard
+## Website/SEO Track Standards
 
 A graduate should be able to:
 
-- Read a website brief and create a simple sitemap.
-- Create a wireframe or layout plan.
-- Design a clean page in Figma, Elementor, Webflow, or similar tool.
-- Write or place basic conversion-focused page sections.
-- Apply basic on-page SEO.
-- Check mobile responsiveness.
-- Perform a pre-delivery QA checklist.
+- Build Elementor headers, footers, and page sections.
+- Recreate a reference layout inside Elementor.
+- Build a basic GHL funnel and automation.
+- Set up WooCommerce basics.
+- Build Shopify product and homepage sections.
+- Use Lovable and Readdy.ai to create template directions.
+- Turn AI-generated template ideas into editable WordPress/Elementor sections.
+- Prepare on-page SEO basics.
+- Prepare local SEO task lists.
+- Prepare off-page SEO trackers.
+- Run technical QA and mobile QA.
 
-## Video Editing Track Standard
+## Video Editing Track Standards
 
 A graduate should be able to:
 
-- Read a video brief.
-- Organize raw footage and assets.
-- Create a clean rough cut.
-- Add hooks, pacing, captions, music, and basic graphics.
-- Export in correct formats.
-- Follow brand style.
-- Perform final video QA before delivery.
+- Organize CapCut projects and files.
+- Cut dead air and arrange a clean timeline.
+- Create strong first-3-second hooks.
+- Add readable, timed captions.
+- Balance voice and music.
+- Use B-roll with purpose.
+- Add simple text callouts and motion.
+- Color-correct basic clips.
+- Export in 9:16, 16:9, and 1:1 formats.
+- Create a revision log.
+- Run final video QA before submission.
 
 ## Weekly Milestones
 
 Week 1: Foundations
 
-- Understand agency workflow.
-- Learn tool basics.
-- Complete simple exercises.
+- Website/SEO: WordPress, Elementor, header, footer, homepage, responsive QA.
+- Video: CapCut setup, basic cuts, hooks, audio, captions.
 
 Week 2: Production Skills
 
-- Build real deliverable sections.
-- Practice revisions.
-- Improve speed and file organization.
+- Website/SEO: Elementor landing page, GHL funnel, GHL automation, WooCommerce, Shopify.
+- Video: vertical reels, B-roll, callouts, color correction, exports.
 
-Week 3: Client Simulation
+Week 3: AI Templates, SEO, and Structured Editing
 
-- Work from realistic briefs.
-- Submit polished output.
-- Learn QA and communication standards.
+- Website/SEO: Lovable, Readdy.ai, Elementor rebuild, on-page SEO, local SEO.
+- Video: internal editing plan, talking-head edit, UGC-style ad, revisions, QA.
 
 Week 4: Capstone and Readiness
 
-- Complete one full simulated project.
-- Submit final output.
-- Receive graduation decision.
+- Website/SEO: off-page SEO, technical SEO, AI template plus Elementor build, funnel/store add-on, final QA.
+- Video: three short-form capstone edits plus internal walkthrough.
 
-## Communication SOP
+## Update Format
 
 Trainees must send updates in this format:
 
@@ -203,11 +211,11 @@ ETA:
 Example:
 
 ```text
-Task: Homepage hero design
+Task: Elementor header build
 Status: In progress
-Done: Wireframe and first layout
+Done: Desktop header and CTA button
 Blocker: Need logo file
-Next step: Finish mobile version
+Next step: Finish mobile menu
 ETA: Today 5 PM
 ```
 
@@ -216,53 +224,55 @@ ETA: Today 5 PM
 Use clear file names:
 
 ```text
-ClientOrTraining_Project_Task_Version_Date
+Training_Project_Task_Version_Date
 ```
 
-Example:
+Examples:
 
 ```text
-Training_Website_Homepage_v1_2026-06-24
-Training_Reel_Edit_v2_2026-06-24
+Training_Elementor_Header_v1_2026-06-27
+Training_GHL_Automation_v1_2026-06-27
+Training_CapCut_Reel_v2_2026-06-27
 ```
 
-## QA Before Submission
+## Website/SEO QA Before Submission
 
-Website/SEO:
-
-- Layout matches the brief.
-- Mobile view is clean.
+- Reference was studied and followed.
+- Header/footer spacing is clean.
+- Mobile view is checked.
 - CTA is visible.
-- Text has no obvious spelling errors.
+- Buttons and forms are tested.
 - Images are not stretched.
-- Buttons and forms are checked.
-- Meta title and description are included when required.
+- Text has no obvious spelling errors.
+- SEO fields are complete when required.
+- SOP or checklist is submitted when required.
 
-Video:
+## CapCut QA Before Submission
 
 - First 3 seconds have a clear hook.
+- Dead air is removed.
 - Audio levels are balanced.
 - Captions are readable and timed correctly.
-- No dead air or awkward cuts.
-- Branding is consistent.
-- Export format matches the brief.
+- B-roll supports the message.
+- No random transitions or clutter.
+- Export format matches the task.
+- Filename and version are clear.
 
-## Removal or Retraining Triggers
+## Retraining Triggers
 
-A trainee may be paused or removed if:
+A trainee may be paused or retrained if:
 
 - They miss 3 submissions.
 - They ignore feedback repeatedly.
 - They submit copied or low-effort work.
-- They cannot follow basic instructions after repeated correction.
-- They communicate late only after being followed up.
+- They cannot follow basic instructions after correction.
+- They submit messy files without links or screenshots.
 
 ## After Graduation
 
-Graduates should not immediately handle high-value client work alone. Use this path:
+Graduates move into internal production gradually:
 
-1. Week 1 after graduation: assist on internal or low-risk tasks.
-2. Week 2: handle one small client deliverable with lead review.
-3. Week 3: handle normal production tasks.
-4. After consistent quality: assign larger client work.
-
+1. Week 1: assist on small internal tasks.
+2. Week 2: complete one small production task with lead review.
+3. Week 3: handle normal production tasks with final QA.
+4. After consistent quality: assign larger production work.
