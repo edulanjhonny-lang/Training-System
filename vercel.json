@@ -2,7 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/**/*.js",
+      "src": "api/trainees.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/trainees/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/submissions.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/submissions/[id].js",
       "use": "@vercel/node"
     },
     {
@@ -28,12 +40,24 @@
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/index.html"
+      "src": "/api/trainees",
+      "dest": "/api/trainees.js"
     },
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "src": "/api/trainees/([^/]+)",
+      "dest": "/api/trainees/[id].js?id=$1"
+    },
+    {
+      "src": "/api/submissions",
+      "dest": "/api/submissions.js"
+    },
+    {
+      "src": "/api/submissions/([^/]+)",
+      "dest": "/api/submissions/[id].js?id=$1"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
     },
     {
       "src": "/(.*)",
